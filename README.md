@@ -1,6 +1,6 @@
 # Empowering The Nations
 
 ## Project Members
-- Angel Maile
-- James Mthethwa
+- Angel Maile      - Team leader
+- James Mthethwa   - Secretary
 - Julien Zolikpo
