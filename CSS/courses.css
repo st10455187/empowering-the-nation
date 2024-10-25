@@ -1,3 +1,322 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
-/* REUSE CODE FOR EACH COURSE PAGE - BECAUSE ALL ELEMENTS WILL SHARE THE SAME FONT, COLOR, FONT SIZE ETC... */
+body {
+   background-color: #e8dff9;
+   font-family: Poppins;
+}
+
+.home-content {
+   padding-left: 100px;
+}
+
+.menu-list {
+   margin-left: 350px;
+}
+
+.menu-list a {
+   margin-left: 70px;
+   text-decoration: none;
+   color: black;
+   font-size: 20px;
+   font-weight: 500;
+}
+
+.menu-list a:hover {
+   color: #6117eb;
+}
+
+.menu-list a:active {
+   color: #8b5cf6;
+}
+
+.menu-list,
+.logo {
+   display: inline-block;
+   vertical-align: middle;
+}
+
+#register-button {
+   padding: 5px 35px;
+   background-color: #6117eb;
+   color: white;
+   border-radius: 15px;
+}
+
+#register-button:hover {
+   background-color: #8b5cf6;
+}
+
+#register-button:active {
+   background-color: #4410bd;
+}
+
+#page-name {
+   font-size: 35px;
+   font-weight: 500;
+   margin-top: 50px;
+}
+
+/* COURSES SUMMARY */
+.course-summary-card1 {
+    display: inline-block;
+    margin-right: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.course-summary-card1:hover {
+    transform: translateY(-10px);
+    transition-duration: 0.5s;
+}
+
+.course-summary-image1 {
+    width: 300px;
+    height: 300px;
+    border-radius: 25px;
+}
+
+.course-summary-title1 {
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: -1px;
+}
+
+.page-name9, .page-icon9 {
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 40px;
+ }
+ 
+ .page-icon9 {
+     cursor: pointer;
+     margin-right: 310px;
+ }
+
+.page-name9 {
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.page-name8, .page-icon8 {
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 40px;
+ }
+ 
+ .page-icon8 {
+     cursor: pointer;
+     margin-right: 300px;
+ }
+
+.page-name8 {
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.course-summary-card2 {
+    display: inline-block;
+    margin-right: 160px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.course-summary-card2:hover {
+    transform: translateY(-10px);
+    transition-duration: 0.5s;
+}
+
+.course-summary-image2 {
+    width: 300px;
+    height: 300px;
+    border-radius: 25px;
+}
+
+.course-summary-title2 {
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: -1px;
+}
+
+/* SHORT COURSES DETAILS */
+/* Cooking */
+#page-name, #page-icon {
+   display: inline-block;
+   vertical-align: middle;
+}
+
+#page-icon {
+    cursor: pointer;
+    margin-right: 400px;
+}
+
+.course-description-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f0fc;
+    width: 600px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    margin-top: -25px;
+    align-content: center;
+}
+
+.course-description {
+    width: 280px;
+    text-align: center;
+    color: #717171;
+    padding: 20px;
+}
+
+#course-picture {
+    width: 600px;
+    height: 270px;
+    border-radius: 15px;
+}
+
+.course-pic, .course-content-card {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.course-content-card {
+    margin-left: 25px;
+}
+
+.course-content {
+    background-color: #f5f0fc;
+    width: 575px;
+    height: 212px;
+    border-radius: 15px;
+    align-content: center;
+}
+
+#price-tag {
+    font-size: 25px;
+    margin-top: -5px;
+}
+
+.content-list {
+    list-style-type: none;
+    margin-top: -30px;
+    margin-left: -15px;
+    color: #717171;
+}
+
+
+/* Child Minding */
+.page-name2, .page-icon2 {
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 40px;
+ }
+ 
+ .page-icon2 {
+     cursor: pointer;
+     margin-right: 300px;
+ }
+
+.page-name2 {
+    font-size: 35px;
+    font-weight: 500;
+}
+ 
+
+ 
+/* Garden Maintenance */
+.page-name3, .page-icon3 {
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 40px;
+ }
+ 
+ .page-icon3 {
+     cursor: pointer;
+     margin-right: 175px;
+ }
+
+.page-name3 {
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.course-description3 {
+    width: 400px;
+    text-align: center;
+    color: #717171;
+}
+
+/* LONG COURSES */
+/* First Aid */
+.page-name4, .page-icon4 {
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 40px;
+ }
+ 
+ .page-icon4 {
+     cursor: pointer;
+     margin-right: 410px;
+ }
+
+.page-name4 {
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.course-description4 {
+    width: 400px;
+    text-align: center;
+    color: #717171;
+}
+
+/* Landscaping */
+.page-name5, .page-icon5 {
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 40px;
+ }
+ 
+ .page-icon5 {
+     cursor: pointer;
+     margin-right: 325px;
+ }
+
+.page-name5 {
+    font-size: 35px;
+    font-weight: 500;
+}
+
+/* Life Skills */
+.page-name6, .page-icon6 {
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 40px;
+ }
+ 
+ .page-icon6 {
+     cursor: pointer;
+     margin-right: 395px;
+ }
+
+.page-name6 {
+    font-size: 35px;
+    font-weight: 500;
+}
+
+/* Sewing */
+.page-name7, .page-icon7 {
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 40px;
+ }
+ 
+ .page-icon7 {
+     cursor: pointer;
+     margin-right: 420px;
+ }
+
+.page-name7 {
+    font-size: 35px;
+    font-weight: 500;
+}

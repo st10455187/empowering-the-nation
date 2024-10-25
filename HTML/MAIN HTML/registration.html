@@ -19,10 +19,79 @@
                 <a href="/HTML/MAIN HTML/courses.html">Courses</a>
                 <a href="/HTML/MAIN HTML/contact.html">Contact </a>
                 <a href="/HTML/MAIN HTML/about.html">About</a>
-                <a id="register-button" href="/HTML/MAIN HTML/registration.html">Register</a>
+                <a id="register-button" href="/HTML/MAIN HTML/registration.html" target="_blank">Register</a>
             </div>
         </div>
         <p id="page-name">Registration</p>
+
+        <div class="register-block">
+            <form action="">
+                <p class="select-courses">Select Courses</p>
+                
+                <label for="first-aid" class="course-lable-name">First Aid&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;R1 500&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <input type="checkbox" id="first-aid" class="check-box"> <br>
+
+                <label for="sewing" class="course-lable-name">Sewing&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;R1 500&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <input type="checkbox" id="sewing" class="check-box"> <br>
+
+                <label for="landscapping" class="course-lable-name">Landscapping&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;R1 500&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <input type="checkbox" id="landscapping" class="check-box"> <br>
+
+                <label for="life-skills" class="course-lable-name">Life Skills&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;R1 500&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <input type="checkbox" id="life-skills" class="check-box"> <br>
+
+                <label for="child-minding" class="course-lable-name">Child Minding&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; R750&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <input type="checkbox" id="child-minding" class="check-box"> <br>
+
+                <label for="cooking" class="course-lable-name">Cooking&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;R750&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <input type="checkbox" id="cooking" class="check-box"> <br>
+
+                <label for="garden-maintenance" class="course-lable-name">Garden Maintenance&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;R750&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <input type="checkbox" id="garden-maintenance" class="check-box"> <br>
+            </form>
+
+            <button class="bottom-buttons1">Calculate Fees</button><br><br>
+
+            <p id="subtotal">SUBTOTAL &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span id="subtotal-price"></span></p>
+            <p id="discount-texts">DISCOUNT &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span id="discount-price-text"></span></p>
+            <p id="grand-total-text"><strong>GRAND TOTAL</strongstrong>&nbsp;&nbsp;&nbsp;&nbsp;<span id="grand-total-price"></span></p>
+            
+        </div>
+
+        <div class="register-block">
+            <label for="name-input">Name</label> <br>
+            <input class="user-input" type="text" placeholder="Enter your name"> <br>
+       
+            <label for="surname-input">Surname</label> <br>
+            <input class="user-input" type="text" placeholder="Enter your surname"> <br>
+       
+            <label for="email-input">Email</label> <br>
+            <input class="user-input" type="email" placeholder="Enter your email address"> <br>
+       
+            <label for="phone-input">Phone</label> <br>
+            <input class="user-input" type="tel" placeholder="Enter your phone number"> <br>
+        </div>
+
+        <div class="register-block">
+            <label for="street-address">Street Address</label> <br>
+            <input class="user-input" type="text" placeholder="Enter your street"> <br>
+       
+            <label for="city-name">City</label> <br>
+            <input class="user-input" type="text" placeholder="Enter your city"> <br>
+       
+            <label for="suburb-name">Suburb</label> <br>
+            <input class="user-input" type="text" placeholder="Enter your suburb"> <br>
+       
+            <label for="postal-code">Postal Code</label> <br>
+            <input class="user-input" type="number" placeholder="Enter your postal code"> <br>
+       
+            <label for="province-name">Province</label> <br>
+            <input class="user-input" type="text" placeholder="Enter your province"> <br>
+
+            <button class="bottom-buttons2" type="submit">Submit Registration</button> <br>
+        </div>
     </div>
+
+    <script src="/JAVASCRIPT/calculator.js"></script>
 </body>
 </html>
