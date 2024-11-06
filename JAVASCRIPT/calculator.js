@@ -23,9 +23,9 @@ document.addEventListener("DOMContentLoaded", () => {
    const subtotalDisplay = document.getElementById("subtotal-price");
    const discountDisplay = document.getElementById("discount-price-text");
    const grandTotalDisplay = document.getElementById("grand-total-price");
-   const calculateButton = document.querySelector(".bottom-buttons1");
 
-   calculateButton.addEventListener("click", () => {
+   // Define a function to calculate and update totals
+   function calculateTotals() {
       let subtotal = 0;
       let selectedCourses = 0;
 
@@ -43,5 +43,10 @@ document.addEventListener("DOMContentLoaded", () => {
       subtotalDisplay.textContent = `R${subtotal.toFixed(2)}`;
       discountDisplay.textContent = `- R${discountAmount.toFixed(2)}`;
       grandTotalDisplay.textContent = `R${grandTotal.toFixed(2)}`;
+   }
+
+   // Add event listener to each checkbox for automatic calculation on change
+   checkboxes.forEach((checkbox) => {
+      checkbox.addEventListener("change", calculateTotals);
    });
 });
